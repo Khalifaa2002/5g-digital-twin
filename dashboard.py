@@ -48,18 +48,55 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
 st.title("📡 5G NR / LTE Digital Twin Simulator")
+
 st.markdown("""
-**Research-Grade Network Simulator** - 5G NR vs LTE Comparison  
-- 🔥 SINR Heatmap & Radio Coverage  
-- 🎯 Fairness Metrics (Jain Index)  
-- 🔄 Handover & Mobility Tracking  
-- 🧠 Predictive SINR Analytics (Moving Average)  
-- ⚠️ SLA Violation Monitoring  
-- 📊 Network Slicing (eMBB/URLLC/mMTC)  
-- 🌐 Digital Twin Real-Time Engine  
-- ✅ Fixed: Numpy array comparison (np.array_equal)
+### 🌐 Research-Grade Network Digital Twin Platform
+
+This dashboard simulates and analyzes next-generation mobile networks using a real-time Digital Twin architecture for 5G NR and LTE environments.
+
+#### 🚀 Main Features
+- 🔥 SINR Heatmap & Radio Coverage Visualization
+- 🎯 Fairness KPI using Jain Index
+- 🔄 Handover Detection & Mobility Tracking
+- 🧠 Predictive SINR Analytics with AI Forecasting
+- ⚠️ SLA Violation Monitoring
+- 📡 Network Slicing (eMBB / URLLC / mMTC)
+- 🌍 Real-Time Digital Twin Engine
+- 📶 5G NR vs LTE Performance Comparison
+- 🤖 AI SON (Self-Organizing Network) Optimization
+- 💾 JSON KPI Export System
+
+---
+
+### 📊 Implemented Modules
+
+#### 📈 1. Summary KPIs
+#### 🗺️ 2. Network Digital Twin Map
+#### 📉 3. Metrics Analysis
+#### 📡 4. Network Slicing
+#### 💾 5. Export Center
+#### 🎥 6. Radio Map
+#### 🧠 7. AI Prediction
+#### 🏙️ 8. City Twin
+#### 📟 9. NOC Dashboard
+#### 🤖 10. AI SON Control Center
+
+---
+
+### 🛠️ Technical Improvements
+- ⚡ Improved Streamlit rendering performance
+- 🔄 Added dynamic visualization updates
+- 📊 Optimized matplotlib compatibility
+- 🛡️ Enhanced simulation stability
+
+### 🚀 Platform Status
+Production-ready academic dashboard for:
+- 📡 5G research
+- 📶 LTE comparison
+- 📊 Telecom KPI analysis
+- 🌐 Digital Twin experimentation
+- 🤖 AI-driven network optimization
 """)
 
 
@@ -1139,29 +1176,7 @@ else:
 
 st.markdown("---")
 st.markdown("""
-## 🚀 5G NR / LTE Digital Twin Simulator v2.1
-
-**Research-Grade Network Simulator** with advanced analytics and predictive capabilities.
-
-### ✨ Core Features (10/10 Implemented)
-
-**🔥 #2 SINR Heatmap** - Red/Yellow/Green radio coverage visualization  
-**🎯 #3 Fairness KPI** - Jain Index tracking per-user throughput fairness  
-**📡 #4 Handover KPI** - Handover detection & rate monitoring (FIXED numpy bug)  
-**🔄 #5 Live Simulation** - Dynamic user movement mode option  
-**🧠 #6 Predictive SINR** - Moving average prediction (Actual vs Predicted)  
-**📉 #7 SLA Violations** - % users below threshold + evolution graph  
-**🗺️ #8 Network Map** - Improved topology with SINR heatmap background  
-**📊 #9 5G vs LTE** - Network mode comparison selector  
-**💾 #10 Export JSON** - All KPIs exportable with metadata  
-
-### 🔧 Bug Fixes (v2.1)
-✅ **Fixed** numpy array comparison error (ValueError: truth value ambiguity)  
-✅ Uses `np.array_equal()` for safe handover detection  
-✅ Stable Streamlit execution | ✅ No matplotlib errors  
-
 ### 📚 References
 3GPP TS 38.901 | 3GPP TS 26.501 | Jain Fairness Index | Shannon Capacity
-
 **Compatible with:** 3GPP Standards | Research | 5G/LTE Networks
 """)

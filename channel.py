@@ -4,7 +4,7 @@ Based on 3rd Generation Partnership Project Technical Report on channel modeling
 Includes: Pathloss, Shadowing, and Small-scale Fading (Rayleigh/Rician)
 """
 
-import numpy as np
+import numpy as np # pyright: ignore[reportMissingImports]
 from typing import Tuple
 
 # ============================================================================

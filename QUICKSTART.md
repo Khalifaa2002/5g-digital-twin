@@ -7,7 +7,7 @@ QUICKSTART.md - Get Running in 5 Minutes
 ## 1️⃣ Prerequisites (2 minutes)
 
 ### Check Python & Dependencies
-
+pyth
 ```bash
 # Check Python version (should be 3.8+)
 python --version
@@ -70,8 +70,7 @@ Per-Slice Statistics:
 
 ```bash
 cd "c:\Users\user\OneDrive - ESPRIT\Bureau\khalifa\Cours ing 2eme\P4\Réseaux mobile\5G_Project"
-
-streamlit run dashboard.py
+python -m streamlit run dashboard.py
 ```
 
 Then open your browser to **http://localhost:8501**
