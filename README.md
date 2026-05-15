@@ -32,34 +32,6 @@ This project is a **production-grade 5G NR & LTE network simulator** based on **
 
 ---
 
-## 📁 Project Structure
-
-```
-5G_Project/
-├── simulation.py              # Main simulation engine (NetworkSimulation class)
-├── channel.py                 # 3GPP TR 38.901 channel model implementation
-├── mimo.py                    # MIMO beamforming & capacity computation
-├── scheduler.py               # Network slicing & QoS scheduling engine
-├── mobility.py                # User mobility & handover models
-├── dashboard.py               # Streamlit web dashboard (v2.1 with 10 tabs)
-├── dashboard/                 # Advanced dashboard modules (optional extensions)
-│   ├── ai_prediction.py       # AI/ML SINR prediction engine
-│   ├── kpi_engine.py          # KPI computation utilities
-│   ├── radio_map.py           # Coverage visualization helpers
-│   ├── son_engine.py          # Self-Organizing Network optimizer
-│   ├── ui_core.py             # Shared UI utilities
-│   └── mobility_engine.py      # Movement simulation helpers
-├── test_dashboard.py          # Unit tests for all KPI functions
-├── test_scenarios.py          # Cross-scenario validation tests
-├── requirements.txt           # Python dependencies
-├── ARCHITECTURE_GUIDE.md      # Detailed technical documentation
-├── QUICKSTART.md              # Getting started guide
-├── README.md                  # This file
-└── TODO.md                    # Feature roadmap
-```
-
----
-
 ## 🚀 Quick Start
 
 ### Installation
@@ -529,5 +501,6 @@ For issues, improvements, or questions:
 ---
 
 **Last Updated:** April 2026 | Version 2.0 | Professional Edition
-#   5 g - d i g i t a l - t w i n  
+#   5 g - d i g i t a l - t w i n 
+ 
  
