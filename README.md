@@ -491,16 +491,15 @@ Suitable for:
 
 ---
 
-## 📞 Questions & Support
-
-For issues, improvements, or questions:
-1. Check existing modules' test functions (`if __name__ == "__main__"`)
-2. Review 3GPP TS 38.901 for channel model details
-3. Consult docstrings in each module
-
----
-
-**Last Updated:** April 2026 | Version 2.0 | Professional Edition
-#   5 g - d i g i t a l - t w i n 
- 
+📡 1. README professionnel
+architecture 5G Digital Twin
+AI / ML pipeline
+simulation workflow
+📊 2. Ajout visuels
+dashboard screenshots
+KPI graphs
+radio map simulation
+🤖 3. Section AI
+KNN / CNN / supervised learning
+TensorFlow Lite edge deployment
  
